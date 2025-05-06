@@ -1,0 +1,3 @@
+[submodule "clef2025-checkthat-lab"]
+	path = clef2025-checkthat-lab
+	url = https://gitlab.com/checkthat_lab/clef2025-checkthat-lab.git
