@@ -1,0 +1,114 @@
+# Zero-shot prompts for normalizing informal social media posts into concise statements in various languages
+
+Greek (ell)
+prompt = f"""Σου δίνεται μια ανοργάνωτη και ανεπίσημη ανάρτηση στα κοινωνικά δίκτυα.
+Περίληψέ την σε μια σαφή και συνοπτική δήλωση, χωρίς να προσθέσεις επιπλέον πληροφορίες.
+Ανάρτηση: {post_text}
+Κανονικοποιημένη δήλωση:"""
+
+
+Romanian (ron)
+prompt = f"""Primești o postare informală și dezorganizată de pe o rețea socială.
+Rezum-o într-o afirmație clară și concisă, fără a adăuga informații.
+Postare: {post_text}
+Afirmație normalizată:"""
+
+
+Bengali (ben)
+prompt = f"""আপনি একটি অগোছালো এবং অনানুষ্ঠানিক সোশ্যাল মিডিয়া পোস্ট পাচ্ছেন।
+এটি একটি স্পষ্ট এবং সংক্ষিপ্ত দাবিতে রূপান্তর করুন, কোনো অতিরিক্ত তথ্য ছাড়াই।
+পোস্ট: {post_text}
+সংক্ষিপ্ত দাবি:"""
+
+
+Telugu (tel)
+prompt = f"""మీకు ఒక అసంఘటితమైన, అనౌపచారికమైన సోషల్ మీడియాలో పోస్ట్ ఇవ్వబడుతుంది.
+దీనిని స్పష్టమైన మరియు సంక్షిప్తమైన ప్రకటనగా మార్చండి, అదనపు సమాచారం ఇవ్వకుండా.
+పోస్ట్: {post_text}
+సంక్షిప్త ప్రకటన:"""
+
+
+Korean (kor)
+prompt = f"""비정형적이고 비공식적인 소셜 미디어 게시물이 주어집니다.
+이를 명확하고 간결한 주장으로 요약하십시오. 추가 정보는 포함하지 마십시오.
+게시물: {post_text}
+요약 주장:"""
+
+Czech (ces)
+prompt = f"""Dostanete neformální a neuspořádaný příspěvek ze sociálních sítí.
+Shrňte jej do jasného a stručného tvrzení, bez přidávání dalších informací.
+Příspěvek: {post_text}
+Normalizované tvrzení:"""
+
+Arabic (ara)
+prompt = f"""تم إعطاؤك منشورًا غير منظم وغير رسمي من وسائل التواصل الاجتماعي.
+قم بتلخيصه في عبارة واضحة وموجزة دون إضافة معلومات جديدة.
+المنشور: {post_text}
+العبارة المبسطة:"""
+
+
+Hindi (hin)
+prompt = f"""आपको एक असंगठित और अनौपचारिक सोशल मीडिया पोस्ट दी गई है।
+इसे एक स्पष्ट और संक्षिप्त दावे में बदलें, बिना अतिरिक्त जानकारी जोड़े।
+पोस्ट: {post_text}
+साधारण दावा:"""
+
+
+Tamil (tam)
+prompt = f"""உங்களுக்கு ஒரே கட்டுப்பாடில்லாத, தகவல் குலைந்த சமூக ஊடகப் பதிவு வழங்கப்படுகிறது.
+அதில் உள்ள தகவலை எதையும் சேர்க்காமல், தெளிவான மற்றும் சுருக்கமான வாக்கியமாக மாற்றவும்.
+பதிவு: {post_text}
+சுருக்கமான வாக்கியம்:"""
+
+
+Thai (tha)
+prompt = f"""คุณได้รับโพสต์จากโซเชียลมีเดียที่ไม่เป็นทางการและไม่มีโครงสร้าง
+กรุณาสรุปให้เป็นข้อความอ้างอิงที่ชัดเจนและกระชับ โดยไม่เพิ่มข้อมูลใหม่
+โพสต์: {post_text}
+ข้อความอ้างอิงที่เรียบเรียงใหม่:"""
+
+
+Punjabi (pan)
+prompt = f"""ਤੁਹਾਨੂੰ ਇੱਕ ਅਣਆਧਿਕਾਰਕ ਅਤੇ ਬੇਤਰਤੀਬਾ ਸੋਸ਼ਲ ਮੀਡੀਆ ਪੋਸਟ ਦਿੱਤੀ ਜਾਂਦੀ ਹੈ।
+ਇਸ ਨੂੰ ਇੱਕ ਸਾਫ਼ ਅਤੇ ਸੰਖੇਪ ਦਾਅਵੇ ਵਿੱਚ ਪਰਿਵਰਤਿਤ ਕਰੋ, ਬਿਨਾਂ ਹੋਰ ਜਾਣਕਾਰੀ ਜੋੜੇ।
+ਪੋਸਟ: {post_text}
+ਸੰਖੇਪ ਦਾਅਵਾ:"""
+
+Marathi (mar)
+prompt = f"""तुम्हाला एक विस्कळीत आणि अनौपचारिक सोशल मीडिया पोस्ट दिली जाते.
+ही पोस्ट कोणतीही अतिरिक्त माहिती न देता स्पष्ट आणि संक्षिप्त दाव्यात रूपांतरित करा.
+पोस्ट: {post_text}
+संक्षिप्त दावा:"""
+
+Polish (pol)
+prompt = f"""Otrzymujesz nieuporządkowany i nieformalny post z mediów społecznościowych.
+Przekształć go w jasne i zwięzłe twierdzenie, bez dodawania nowych informacji.
+Post: {post_text}
+Znormalizowane twierdzenie:"""
+
+German (deu)
+prompt = f"""Du erhältst einen unstrukturierten und informellen Social-Media-Beitrag.
+Formuliere ihn als klare und prägnante Aussage, ohne zusätzliche Informationen hinzuzufügen.
+Beitrag: {post_text}
+Normalisierte Aussage:"""
+
+
+Portuguese (por)
+prompt = f"""Você recebeu uma postagem informal e desorganizada de uma rede social.
+Resuma essa postagem em uma afirmação clara e concisa, sem adicionar novas informações.
+Postagem: {post_text}
+Afirmação normalizada:"""
+
+English (eng)
+prompt = f"""You have received an informal and disorganized social media post.
+Summarize this post into a clear and concise statement, without adding any new information.
+Post: {post_text}
+Normalized statement:"""
+
+Spanish (spa)
+prompt = f"""Has recibido una publicación informal y desorganizada de una red social.
+Resume esta publicación en una afirmación clara y concisa, sin agregar nueva información.
+Publicación: {post_text}
+Afirmación normalizada:"""
+
+
