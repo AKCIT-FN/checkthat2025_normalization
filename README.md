@@ -6,6 +6,8 @@
   <br /> Our submission on Task 2 on Multilingual Claim Normalization, achieving achieved top-three positions in 15 of the 20 languages.  <br /> 
 </div>
 
+> [!TIP]
+> We submitted our preprint on https://arxiv.org/abs/2509.11496.
 
 ## Overview
 
@@ -18,14 +20,14 @@ Training was executed on three platforms: Kaggle kernels equipped with two T4 GP
 If you use our work, please cite our paper:
 
 ```bibtex
-@inproceedings{Almada2025AKCITFN,
-  author    = {Fabrycio Leite Nakano Almada and Kauan Divino Pouso Mariano and Maykon Adriell Dutra and Victor Emanuel da Silva Monteiro and Juliana Resplande Sant' Anna Gomes and Arlindo Rodrigues Galv{\~a}o Filho and Anderson da Silva Soares},
-  title     = {{AKCIT-FN at CheckThat! 2025: Switching Fine-Tuned SLMs and LLM Prompting for Multilingual Claim Normalization}},
-  booktitle = {Working Notes of CLEF 2025 - Conference and Labs of the Evaluation Forum},
-  year      = {2025},
-  address   = {Madrid, Spain},
-  month     = {September 9-12},
-  publisher = {CEUR-WS.org}
+@misc{almada2025claimnorm,
+      title={AKCIT-FN at CheckThat! 2025: Switching Fine-Tuned SLMs and LLM Prompting for Multilingual Claim Normalization}, 
+      author={Fabrycio Leite Nakano Almada and Kauan Divino Pouso Mariano and Maykon Adriell Dutra and Victor Emanuel da Silva Monteiro and Juliana Resplande Sant'Anna Gomes and Arlindo Rodrigues Galvão Filho and Anderson da Silva Soares},
+      year={2025},
+      eprint={2509.11496},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2509.11496}, 
 }
 ```
 
