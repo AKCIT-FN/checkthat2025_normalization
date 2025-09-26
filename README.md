@@ -6,8 +6,6 @@
   <br /> Our submission on Task 2 on Multilingual Claim Normalization, achieving achieved top-three positions in 15 of the 20 languages.  <br /> 
 </div>
 
-> [!TIP]
-> We submitted our preprint on https://arxiv.org/abs/2509.11496.
 
 ## Overview
 
@@ -17,7 +15,7 @@ Training was executed on three platforms: Kaggle kernels equipped with two T4 GP
 
 ## Citation
 
-If you use our work, please cite our paper:
+If you use our work, please cite our paper https://ceur-ws.org/Vol-4038/paper_79.pdf:
 
 ```bibtex
 @misc{almada2025claimnorm,
